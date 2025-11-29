@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+
+    <!-- Importa o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho principal da página -->
+    <header>
+        <h1>
+            <!-- Logo clicável que leva de volta para a página inicial -->
+            <a class="logo" href="http://127.0.0.1:5500/index.html">
+                Eventos <span class="destaque-logo">DOM</span>
+            </a>
+        </h1>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <!-- Grupo que contém todas as caixas de eventos -->
+        <div id="box-group">
+
+            <!-- ============================= -->
+            <!-- 1º EVENTO – Click no botão -->
+            <!-- ============================= -->
+            <div class="box">
+                <button id="btn-click">
+                    <!-- Texto que será substituído via JS -->
+                    <span class="text">Clique Aqui</span>
+                </button>
+            </div>
+
+            <!-- ============================= -->
+            <!-- 2º EVENTO e 3º EVENTO – MouseOver / MouseOut -->
+            <!-- ============================= -->
+            <div class="box">
+                <span class="text">Passe o mouse aqui para mudar a cor</span>
+            </div>
+
+            <!-- ============================= -->
+            <!-- 4º EVENTO e 5º EVENTO – MouseDown / MouseUp -->
+            <!-- ============================= -->
+            <div class="box">
+                <button id="btn-pressiona">
+                    <span class="text">Pressione aqui</span>
+                </button>
+            </div>
+
+            <!-- ============================= -->
+            <!-- 6º EVENTO e 7º EVENTO – KeyDown / KeyUp -->
+            <!-- ============================= -->
+            <div class="box">
+
+                <!-- Rótulo do campo -->
+                <label for="inputTecla">Digite algo: </label>
+
+                <!-- Campo de entrada que dispara os eventos de teclado -->
+                <input type="text" name="inputTecla" id="inputTecla">
+
+                <!-- Área onde será exibida a tecla pressionada -->
+                <div id="box-result">
+                    <div>
+                        <span class="text"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================= -->
+            <!-- 8º EVENTO - Mudança de valor (change) -->
+            <!-- ============================= -->
+            <div class="box">
+                <label for="curso">Selecione o curso: </label>
+                <select name="curso" id="curso">
+                    <option value="">Escolha...</option>
+                    <option value="Técnico em Desenvolvimento de Sistemas">Técnico em Desenvolvimento de Sistemas</option>
+                    <option value="Desenvolvimento Front-End">Desenvolvimento Front-End</option>
+                    <option value="Desenvolvimento Back-End">Desenvolvimento Back-End</option>
+                    <option value="UX Design / UI Design">UX Design / UI Design</option>
+                </select>
+            </div>
+
+            <!-- ============================= -->
+            <!-- 9º EVENTO - Envio de Formulário (submit) -->
+            <!-- ============================= -->
+            <div class="box">
+                <form id="form" action="">
+    
+                    <label for="name">Nome Completo: </label>
+                    <input type="text" name="name" id="name" required>
+    
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" required>
+
+                    <button type="submit" id="btn-enviar">Enviar</button>
+
+                    <span class="text"></span>
+
+                </form>
+            </div>
+
+            <!-- ============================= -->
+            <!-- 10º EVENTO - Duplo Clique (dblclick) -->
+            <!-- ============================= -->
+            <div class="box">
+                <h2 id="img-title">Clique duas vezes na imagem</h2>
+                <img id="img-peterParker" src="peterparker.jpg" alt="PeterParker">
+                <!-- <img id="img-spiderman" src="spiderman.jpg" alt="PeterParker"> -->
+                <img id="img-spiderman" src="spiderman.jpg" alt="PeterParker">
+            </div>
+
+            <!-- ========================================== -->
+            <!-- 11º EVENTO - Carregamento da página (load) -->
+            <!-- ========================================== -->
+            <div class="box">
+            </div>
+
+            <!-- ========================================== -->
+            <!-- 12º EVENTO - Carregamento da página (load) -->
+            <!-- ========================================== -->
+            <div class="box">
+                <button id="btn-contador">Clique aqui</button>
+                <span id="spanContador"></span>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Importando o JavaScript no final para melhorar desempenho -->
+    <script src="script.js"></script>
+</body>
+
+</html>
