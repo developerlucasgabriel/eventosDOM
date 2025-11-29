@@ -260,7 +260,7 @@ form input:focus {
     max-width: 350px;
     max-height: 500px;
     border-radius: 0.2rem;
-    border: 0.08rem solid #000;
+    border: 0.15rem solid #000;
     cursor: pointer;
     margin-top: 1.8rem;
     transition: 0.25s;
