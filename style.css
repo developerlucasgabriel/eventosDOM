@@ -262,10 +262,23 @@ form input:focus {
     border-radius: 0.2rem;
     border: 0.08rem solid #000;
     cursor: pointer;
+    margin-top: 1.8rem;
+    transition: 0.25s;
+}
+
+#img-peterParker:hover {
+    box-shadow: 2px 2px 15px #054dc1e6;
+    transform: scale(1.02);
 }
 
 #img-spiderman {
     display: none;
+}
+
+#img-spiderman:hover {
+    display: none;
+    box-shadow: 2px 2px 15px #ff2d2d8f;
+    transform: scale(1.02);
 }
 
 /* ----------------------------------------------------

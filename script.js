@@ -169,7 +169,7 @@ window.addEventListener('load', event => {
 });
 
 // ---------------------------------
-// 12. Desafio Contator
+// 12. Desafio Contador
 // ---------------------------------
 let btnContador = document.getElementById('btn-contador');
 let contador = 0;
@@ -180,3 +180,7 @@ btnContador.addEventListener('click', event => {
     spanContador.style.display = 'block';
     spanContador.innerHTML = `Quantidade de cliques no botão: ${contador}`
 })
+
+
+
+
