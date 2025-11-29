@@ -35,7 +35,9 @@ https://developerlucasgabriel.github.io/eventosDOM
 
 ---
 
-## 📸 Print do Projeto
+## 📸 Prévia do Site
+![printSiteEventos](https://github.com/user-attachments/assets/a1ef7b3f-0d53-4dcc-9829-a10dac728790)
 
-![Uploading image.png…]()
+
+
 
