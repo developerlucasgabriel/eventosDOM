@@ -267,7 +267,7 @@ form input:focus {
 }
 
 #img-peterParker:hover {
-    box-shadow: 2px 2px 15px #4f9eff8c;
+    box-shadow: 2px 2px 12px #4f9effc6;
     transform: scale(1.02);
 }
 
@@ -277,7 +277,7 @@ form input:focus {
 
 #img-spiderman:hover {
     display: none;
-    box-shadow: 2px 2px 15px #ff434371;
+    box-shadow: 2px 2px 12px #f40d0d6f;
     transform: scale(1.02);
 }
 
